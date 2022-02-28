@@ -1,0 +1,24 @@
+<body>
+    <h1>The Hunger Heist - Orders</h1>
+	<section>
+        
+		<div class="container">
+			<div class="card" *ngFor="let order of ordered;let j=index">
+				<div class="content">
+					<div class="imgBx">
+						<img src="../../assets/{{order.name}}.png">
+					</div>
+					<div class="contentBx">
+						<h3>{{order.name}}<br><span>Quantity&nbsp;&nbsp;{{order.quantity}}</span><br><span>Table No :&nbsp;&nbsp;{{order.tno}}</span></h3>
+					</div>
+				</div>
+				<ul class="sci">
+					<li>
+						<a (click)="rmfood(order.name)">Done</a>
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+	</section>
+</body>

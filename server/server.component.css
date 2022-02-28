@@ -1,0 +1,40 @@
+body{
+    margin: 0%;
+    background-image: url('../../assets/5.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+}
+.content{
+    
+    
+}
+a{
+    text-decoration: none !important;
+    color: white !important;
+}
+.one{
+    background-color: none;
+    color: white;
+    height: 100vh;
+    opacity: 54%;
+}
+h1{
+    font-family: Papyrus, fantasy; font-style: normal; font-variant: normal; font-weight: 700;
+    color: rgb(109, 108, 106);
+    font-size: 50px !important
+}
+.container{
+    margin: 0%;
+    /* padding-left: 500px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-left: 210px;
+}
+button{
+    width: 150px;
+    border-radius: 15px;
+}
